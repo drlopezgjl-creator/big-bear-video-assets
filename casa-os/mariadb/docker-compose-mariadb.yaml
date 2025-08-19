@@ -14,9 +14,9 @@ services:
       # The name of the database to create on container startup
       MYSQL_DATABASE: casaos
       # Username for a new user (with superuser privileges)
-      MYSQL_USER: bigbear
+      MYSQL_USER: casaos
       # Password for the new user
-      MYSQL_PASSWORD: password
+      MYSQL_PASSWORD: casaos
     # Map ports between the host and the container. Format: host:container
     ports:
       # Map port 3306 in the container to port 3306 on the host
